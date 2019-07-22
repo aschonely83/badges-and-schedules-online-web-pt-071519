@@ -2,8 +2,8 @@ def badge_maker(name)
   print "Hello, my name is #{name}."
 end 
 
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def batch_badge_creator(speakers)
-  name + speakers
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def batch_badge_creator(attendees)
+ return badge_maker(attendees)
 end  
-print batch_badge_creator
+print batch_badge_creator(attendees)
